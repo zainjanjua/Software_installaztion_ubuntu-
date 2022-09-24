@@ -19,6 +19,7 @@ git clone https://github.com/Homebrew/brew ~/.linuxbrew/Homebrew
 mkdir ~/.linuxbrew/bin
 ln -s ../Homebrew/bin/brew ~/.linuxbrew/bin
 eval $(~/.linuxbrew/bin/brew shellenv)
+eval $(/home/ec2-user/.linuxbrew/bin/brew shellenv)
 
 brew install fluxcd/tap/flux
 export GITHUB_TOKEN=<your-token>
